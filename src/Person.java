@@ -13,4 +13,16 @@ public class Person {
         System.out.println(rick.sayHello());
         // prints "Hello from Rick Sanchez!"
     }
+
+//    public String getName(){
+//return firstName
+//    }
+
+//    public void setName(String name){
+//        this.name = name;
+////TODO: change the name field to the passed value
+//    }
+//    public void sayHello(){
+////TODO: print a message to the console using the person's name
+//    }
 }
