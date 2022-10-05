@@ -1,6 +1,5 @@
 public class LuxuryConvertible {
-
-
+    int myInt = 34;
     public String make;
     public String model;
 

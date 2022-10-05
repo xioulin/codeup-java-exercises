@@ -1,13 +1,54 @@
+import shapes.Rectangle;
+
+import java.util.Scanner;
 public class Main {
 
 //    boolean trueOrFalse = true;
 //    char character = 'g';
 //    double price = 5.99;
-
+//        boolean passingTesla;
 
 
     public static void main(String[] args) {
-//        System.out.println("hello i love won't you tell me your name");
+
+
+
+
+
+
+        Truck bigRiggus = new Truck();
+        bigRiggus.go();
+        Bicycle bikey = new Bicycle();
+//        System.out.println("the bicycle has this many pedals: "+bikey.pedalsNum);
+//        bikey.sayFuck();
+        MountainBicycle myMountainBike = new MountainBicycle();
+        MountainBicycle.eatDirt();
+
+
+        bikey.sayFuckFuckGames();
+
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println("Are you passing a Tesla in a truck?");
+//        boolean passingTesla = scan.nextBoolean();
+
+//        if(passingTesla == true){
+//            System.out.println("Do you want to be a jerk?");
+//            boolean beJerk = scan.nextBoolean();
+//            if(beJerk == true){
+//                bigRiggus.rollCoal();
+//            }else{
+//                System.out.println("drive normally, don't be an asshole");
+//            }
+//        }
+        //ask user for input if they want to be a jerk.
+        //if yes, roll coal.
+//        else{
+//            System.out.println("no Tesla's in sight, drive normally!");
+//        }
+
+//        System.out.println(bigRiggus.pedalsNum);
+
+        //        System.out.println("hello i love won't you tell me your name");
 //        int myFavoriteNumber = 42;
 //        System.out.println(myFavoriteNumber);
 //        String myString = "what what in the ...";
@@ -54,8 +95,8 @@ public class Main {
 //        y -= x;
 //        System.out.println(y);
 
-        byte biggusDickus = 127;
-        System.out.println(biggusDickus);
+//        byte biggusDickus = 127;
+//        System.out.println(biggusDickus);
     }
 
 }
