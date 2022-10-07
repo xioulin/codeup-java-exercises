@@ -1,6 +1,7 @@
 import shapes.Rectangle;
 
 import java.util.Scanner;
+
 public class Main {
 
 //    boolean trueOrFalse = true;
@@ -12,21 +13,16 @@ public class Main {
     public static void main(String[] args) {
 
 
+//        Truck bigRiggus = new Truck();
+//        bigRiggus.go();
+//        Bicycle bikey = new Bicycle();
+////        System.out.println("the bicycle has this many pedals: "+bikey.pedalsNum);
+////        bikey.sayFuck();
+//        MountainBicycle myMountainBike = new MountainBicycle();
+//        MountainBicycle.eatDirt();
 
 
-
-
-
-        Truck bigRiggus = new Truck();
-        bigRiggus.go();
-        Bicycle bikey = new Bicycle();
-//        System.out.println("the bicycle has this many pedals: "+bikey.pedalsNum);
-//        bikey.sayFuck();
-        MountainBicycle myMountainBike = new MountainBicycle();
-        MountainBicycle.eatDirt();
-
-
-        bikey.sayFuckFuckGames();
+//        bikey.sayFuckFuckGames();
 
 //        Scanner scan = new Scanner(System.in);
 //        System.out.println("Are you passing a Tesla in a truck?");

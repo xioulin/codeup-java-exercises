@@ -5,7 +5,9 @@ public class MethodsExercise {
 
 
     public static void main(String[] args) {
-//        System.out.println(Addition(1, 2));
+
+
+        System.out.println(Addition(1, 2));
 //        System.out.println(Subtraction(1, 2));
 //        System.out.println(Multiplication(1, 2));
 //        System.out.println(Division(1, 1));
@@ -16,12 +18,12 @@ public class MethodsExercise {
 //        System.out.println("how many sides for dice");
 //
 //        int sides = scanner
-        HighLow(100);
+//        HighLow(100);
     }
 
-//    public static int Addition(int numb1, int numb2) {
-//        return (numb1 + numb2);
-//    }
+    public static int Addition(int numb1, int numb2) {
+        return (numb1 + numb2);
+    }
 
 //    public static int Subtraction(int numb1, int numb2) {
 //        return (numb1 - numb2);
