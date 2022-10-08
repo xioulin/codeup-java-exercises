@@ -3,8 +3,6 @@ package shapes;
 public class ShapesTest {
 
 
-
-
     public static void main(String[] args) {
 
         Measurable myShape = new Rectangle(3,4);
