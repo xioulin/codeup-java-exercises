@@ -25,9 +25,9 @@ public class ArraysExercise {
 
         }
 
-        public static void  addPerson(){
-
-        }
+//        public static void  addPerson(){
+//
+//        }
 
 
 
