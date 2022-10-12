@@ -7,6 +7,8 @@ import java.util.Scanner;
 public class GradesApplication {
 
     public static void main(String[] args) {
+
+
         //create new student classes with student name and initialized grade
         Student joshua = new Student("joshua", "44");
         //adding subsequent grades
@@ -32,10 +34,16 @@ public class GradesApplication {
         students.put("lelekProrok", samuel);
         students.put("biblicalchick44", jezebel);
 
-        Scanner scannyscanscan = new Scanner(System.in);
-        System.out.println("would you like to continue? type yes if so");
-        String continuer = scannyscanscan.nextLine();
-
+        boolean keepGoing;
+        do {
+            Scanner scannyscanscan = new Scanner(System.in);
+            System.out.println("would you like to continue? type yes if so");
+            String continuer = scannyscanscan.nextLine();
+            if (continuer.contains("yes")) {
+                keepGoing=true;
+            }else{
+                keepGoing=false;
+            }
             //for loop to print out the key values aka. the git usernames
             for (int i = 0; i < students.size(); i++) {
                 System.out.print("  |  " + students.keySet().toArray()[i]);
@@ -53,8 +61,13 @@ public class GradesApplication {
             }
             System.out.println("would you like to continue? type yes if so");
             continuer = scannyscanscan.nextLine();
-
-
+            if (continuer.contains("yes")) {
+                keepGoing=true;
+            }else{
+                keepGoing=false;
+                System.out.println("program has ended, goodbye");
+            }
+        }while(keepGoing);
 
     }
 
