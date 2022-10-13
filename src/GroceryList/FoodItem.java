@@ -1,4 +1,5 @@
 package GroceryList;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 
@@ -6,14 +7,21 @@ public class FoodItem {
 
 
     private String foodName;
-    private Integer itemQuantity;
-
-    public FoodItem(String foodName, Integer itemQuantity) {
-        this.foodName = foodName;
-        this.itemQuantity = itemQuantity;
+    private ArrayList<Integer> itemQuantity;
+    public FoodItem(String newFoodItem,String itemQuantity){
+       this(newFoodItem, new ArrayList<Integer>());
     }
 
-    public void addMore(int more){
-        itemQuantity +=more;
+    public FoodItem(String newfoodName, ArrayList<Integer> newitemQuantity) {
+        this.foodName = newfoodName;
+        this.itemQuantity = newitemQuantity;
+    }
+
+    public String addFoodName() {
+        return foodName;
+    }
+
+    public void addItemQuantity(int quantity){
+         itemQuantity.add(quantity);
     }
 }
