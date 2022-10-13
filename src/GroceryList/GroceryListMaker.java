@@ -49,7 +49,7 @@ public class GroceryListMaker {
             String productCat = scanny.nextLine();
 
             if (productCat.contains("1")) {
-                groceryList.add(productCat);
+//                groceryList.add(productCat);
                 System.out.println("you have selected bakedGoods");
                 System.out.println("what food item do you want");
 

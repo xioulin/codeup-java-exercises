@@ -8,7 +8,6 @@ public  class Student {
     private ArrayList<Integer> studentGrade;
 
 
-
     public Student(String newStudentName,String studentGrade){
         this(newStudentName, new ArrayList<Integer>());
     }

@@ -10,7 +10,9 @@ public class Input {
     }
 
     public static boolean yesNo() {
-        return scanner.nextBoolean();
+        String userInput = scanner.nextLine();
+        return userInput.equalsIgnoreCase("y") || userInput.equalsIgnoreCase("yes") || userInput.equalsIgnoreCase("true");
+
     }
 
     public static int getInt(int min, int max) {
@@ -24,6 +26,10 @@ public class Input {
         return userNum;
     }
 
+    public static int getInt(){
+        return scanner.nextInt();
+    }
+
     public static double getDouble(double min, double max) {
         System.out.printf("give a number between %s and %n", min, max);
         double userNumb = scanner.nextDouble();
@@ -35,6 +41,8 @@ public class Input {
         return userNumb;
 
     }
-
+    public static double getDouble(){
+        return scanner.nextDouble();
+    }
 }
 
