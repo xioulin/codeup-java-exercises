@@ -10,25 +10,25 @@ public class GradesApplication {
 
 
         //create new student classes with student name and initialized grade
-        Student joshua = new Student("joshua", "44");
+        Student1 joshua = new Student1("joshua", "44");
         //adding subsequent grades
         joshua.addGrade(94);
         joshua.addGrade(65);
         joshua.addGrade(78);
-        Student elijah = new Student("elijah", "55");
+        Student1 elijah = new Student1("elijah", "55");
         elijah.addGrade(77);
         elijah.addGrade(56);
         elijah.addGrade(86);
-        Student samuel = new Student("samuel", "69");
+        Student1 samuel = new Student1("samuel", "69");
         samuel.addGrade(12);
         samuel.addGrade(76);
         samuel.addGrade(57);
-        Student jezebel = new Student("jezebel", "78");
+        Student1 jezebel = new Student1("jezebel", "78");
         jezebel.addGrade(88);
         jezebel.addGrade(96);
         jezebel.addGrade(92);
         //create hashmap for student key value pairing. pairing github usernames with student class objects
-        HashMap<String, Student> students = new HashMap<>();
+        HashMap<String, Student1> students = new HashMap<>();
         students.put("joshJericho", joshua); // e.x. key is github username is "joshLover", value is student object
         students.put("elijahProphet6", elijah);
         students.put("lelekProrok", samuel);

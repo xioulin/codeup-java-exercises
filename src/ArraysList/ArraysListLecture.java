@@ -35,5 +35,7 @@ public class ArraysListLecture {
         usernames.replace("Wojciech","wojtekKowal", "skurwisyn");
         System.out.println(usernames);
 
+
+
     }
 }

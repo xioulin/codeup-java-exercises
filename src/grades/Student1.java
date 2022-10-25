@@ -2,19 +2,23 @@ package grades;
 
 import java.util.ArrayList;
 
-public  class Student {
+public  class Student1 {
     private String studentName;
 
     private ArrayList<Integer> studentGrade;
 
 
-    public Student(String newStudentName,String studentGrade){
-        this(newStudentName, new ArrayList<Integer>());
+    public Student1(String newStudentName,String studentGrade){
+        this(newStudentName, new ArrayList<>());
     }
 
-    public Student(String newStudentName,ArrayList<Integer> newStudentGrade) {
+    public Student1(String newStudentName,ArrayList<Integer> newStudentGrade) {
         this.studentName = newStudentName;
         this.studentGrade = newStudentGrade;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
     }
 
     // returns the student's name
@@ -37,7 +41,6 @@ public  class Student {
         for(int i = 0; i <studentGrade.size(); i++){
             sum += studentGrade.get(i);
         }
-
         return sum/studentGrade.size();
     }
 
